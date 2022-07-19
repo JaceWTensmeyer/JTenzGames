@@ -1,3 +1,44 @@
 .homeBodyContainer {
 	height: calc(100vh - 75px);
+	overflow-y: auto;
+}
+
+.sectionContainer {
+	width: 70%;
+	text-align: center;
+	padding-left: 15%;
+}
+
+.section {
+	color: white;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.sectionHeader {
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.subSection {
+	width: 33%;
+	display: inline-block;
+}
+
+.sectionPoint {
+	padding-top: 10px;
+	color: #cc90fc;
+}
+
+.steamButton {
+	text-align: center;
+	background-color: #3247fc;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 20px;
+	cursor: pointer;
 }

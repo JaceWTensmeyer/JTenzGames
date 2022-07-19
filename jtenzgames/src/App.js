@@ -7,7 +7,7 @@ const App = () => {
 	return (
 		<div>
 			<Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-			<HomeBody activeTab={activeTab} />
+			<HomeBody activeTab={activeTab} setActiveTab={setActiveTab} />
 		</div>
 	);
 };

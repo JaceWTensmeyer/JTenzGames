@@ -8,8 +8,18 @@ const Navbar = ({ activeTab, setActiveTab }) => {
 		<div className={'navbarContainer'}>
 			<img className={'logo'} src={logo} alt='logo' />
 			<div className={'tabContainer'}>
-				<div className={'tab'}>J Tenz Games</div>
-				<div className={'tab'}>Infernomon</div>
+				<div
+					className={activeTab === 'JTenzGames' ? 'activeTab' : 'tab'}
+					onClick={() => setActiveTab('JTenzGames')}
+				>
+					J Tenz Games
+				</div>
+				<div
+					className={activeTab === 'Infernomon' ? 'activeTab' : 'tab'}
+					onClick={() => setActiveTab('Infernomon')}
+				>
+					Infernomon
+				</div>
 			</div>
 		</div>
 	);

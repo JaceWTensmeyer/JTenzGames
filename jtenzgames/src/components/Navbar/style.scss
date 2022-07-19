@@ -12,13 +12,22 @@
 
 .tabContainer {
 	text-align: center;
-	width: 90%;
+	width: 95%;
 }
 
 .tab {
-	color: white;
+	color: gray;
 	cursor: pointer;
 	display: inline-block;
-	padding: 25px;
+	margin: 20px;
+	font-size: 20px;
+}
+
+.activeTab {
+	color: white;
+	border-bottom: 2px solid white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 25px;
 	font-size: 20px;
 }
