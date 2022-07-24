@@ -29,7 +29,8 @@
 
 .sectionPoint {
 	padding-top: 10px;
-	color: #cc90fc;
+	//color: #cc90fc;
+	color: #53fc75;
 }
 
 .steamButton {
@@ -41,4 +42,13 @@
 	font-size: 20px;
 	border-radius: 20px;
 	cursor: pointer;
+}
+
+.socialIconContainer {
+	text-align: center;
+}
+
+.socialIcon {
+	height: 50px;
+	width: 50px;
 }

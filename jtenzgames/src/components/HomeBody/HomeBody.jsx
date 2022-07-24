@@ -5,6 +5,10 @@ import jace from '../../images/JaceMexico.jpeg';
 import logo from '../../images/RoundLogo.png';
 import StarterInfernomon from '../../images/StarterInfernomon.png';
 import TreasureChest from '../../images/TreasureChest.png';
+import {
+	AiFillTwitterCircle as Twitter,
+	AiOutlineYoutube as Youtube,
+} from 'react-icons/ai';
 
 import './style.scss';
 
@@ -31,10 +35,45 @@ const HomeBody = ({ activeTab, setActiveTab }) => {
 							}}
 						>
 							<div className={'sectionHeader'}>About</div>
-							<i style={{ color: '#00D2C5' }}>J Tenz Games</i> is an indie dev
-							company created and ran by Jace Tensmeyer. Jace currently works a
-							day job as a professional software engineer and spends much of his
-							free time developing games.
+							<div>
+								<i style={{ color: '#00D2C5' }}>J Tenz Games</i> is an indie dev
+								company created and ran by Jace Tensmeyer. Jace currently works
+								a day job as a professional software engineer and spends much of
+								his free time developing games.
+							</div>
+							<div className={'sectionHeader'}>
+								<div
+									style={{
+										height: '50px',
+										width: '50px',
+										display: 'inline-block',
+										padding: '10px',
+									}}
+								>
+									<a
+										href='https://twitter.com/JTenzGames'
+										style={{ color: 'white' }}
+									>
+										<Twitter size='1x' />
+									</a>
+								</div>
+								<div
+									style={{
+										height: '50px',
+										width: '50px',
+										display: 'inline-block',
+										padding: '10px',
+									}}
+								>
+									<a
+										href='https://www.youtube.com/channel/UCufIX50ivfhYtfqmNXxDoeA'
+										style={{ color: 'white' }}
+									>
+										<Youtube size='1x' />
+									</a>
+								</div>
+							</div>
+							(TODO: set custom youtube url)
 						</div>
 						<div className={'subSection'}>
 							<img style={{ height: jTenzGamesHeight }} src={jace} alt='logo' />
@@ -80,7 +119,8 @@ const HomeBody = ({ activeTab, setActiveTab }) => {
 									shiny!)
 								</div>
 								<div className={'sectionPoint'}>
-									- Battle in increasingly difficult dungeons
+									- Battle in increasingly difficult dungeons with your
+									Infernomon
 								</div>
 								<div className={'sectionPoint'}>- Acquire rare loot</div>
 								<div className={'sectionPoint'}>- Complete Achievments</div>
