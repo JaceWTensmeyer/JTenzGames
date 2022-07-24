@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HomeBody } from './components/HomeBody';
+import { SiteBody } from './components/SiteBody';
 import { Navbar } from './components/Navbar';
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
 	return (
 		<div>
 			<Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-			<HomeBody activeTab={activeTab} setActiveTab={setActiveTab} />
+			<SiteBody activeTab={activeTab} setActiveTab={setActiveTab} />
 		</div>
 	);
 };
