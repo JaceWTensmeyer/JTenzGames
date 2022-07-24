@@ -98,12 +98,12 @@ const JTenzGames = ({ setActiveTab }) => {
 						{' '}
 						Infernomon
 					</i>
-					. <i>Infernomon</i> is a Live Action Dungeon Crawling Role Playing
+					. <i>Infernomon</i> is a 2D Live Action Dungeon Crawling Role Playing
 					Game that will be available on PC and purchasable on Steam. In this
 					game you will:
 					<div className={'sectionPointContainer'}>
 						<div className={'sectionPoint'}>
-							- Begin your journy as a young witch/wizard
+							- Begin your journey as a young witch/wizard
 						</div>
 						<div className={'sectionPoint'}>
 							- Attend school to learn new professions
@@ -114,8 +114,8 @@ const JTenzGames = ({ setActiveTab }) => {
 						</div>
 						<div className={'sectionPoint'}>
 							- Battle in increasingly difficult dungeons with your Infernomon
+							to acquire rare loot and increase your Dungeon Score.
 						</div>
-						<div className={'sectionPoint'}>- Acquire rare loot</div>
 						<div className={'sectionPoint'}>- Complete Achievments</div>
 						<div className={'sectionPoint'}>
 							- Buy/Sell powerful loot and Infernomon from/to other online
