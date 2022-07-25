@@ -3,6 +3,8 @@ import * as React from 'react';
 import SchoolAndProfessions from '../../images/SchoolAndProfessions.png';
 import StarterInfernomon from '../../images/StarterInfernomon.png';
 import Dungeon from '../../images/Dungeon.png';
+import Gear from '../../images/Gear.png';
+import TreasureChest from '../../images/TreasureChest.png';
 
 import './style.scss';
 
@@ -18,7 +20,7 @@ const Infernomon = () => {
 					Island. Infernal Island is home to a humanoid race called
 					Infernalites. The Infernalites are constantly defending Infernal
 					Island from monsters called Infernomon that spawn from different areas
-					on Infernal Island called Dungeons.
+					on Infernal Island called "Dungeons".
 				</div>
 				<div className={'overviewText'}>
 					In this game, you will begin your journey as a 10 year old witch or
@@ -46,31 +48,52 @@ const Infernomon = () => {
 				</div>
 				<div className={'featureSectionColumnTwo'}>
 					<div>
-						Infernomon are monsters that come in a number of different species.
-						You will conjure Infernomon of your own to battle with you against
-						enemy Infernomon.
+						Infernomon are monsters that come in a variety of different species.
+						You will learn recipes used to conjure Infernomon of your own to
+						battle with you against enemy Infernomon. Infernomon variables
+						include:
 					</div>
 					<div>
-						Each species of Infernomon has 1 or 2 types that gives them
-						different advantages and disadvantages against other types.
+						- 1 to 2 types (
+						<i style={{ color: 'firebrick', fontWeight: 'bold' }}>Fire, </i>
+						<i style={{ color: 'dodgerblue', fontWeight: 'bold' }}>Water, </i>
+						<i style={{ color: 'green', fontWeight: 'bold' }}>Blight, </i>
+						<i style={{ color: 'gold', fontWeight: 'bold' }}>Electric, </i>
+						<i style={{ color: 'cornflowerBlue', fontWeight: 'bold' }}>
+							Wind,{' '}
+						</i>
+						<i style={{ color: 'goldenrod', fontWeight: 'bold' }}>Earth, </i>
+						<i style={{ color: 'deeppink', fontWeight: 'bold' }}>Arcane, </i>
+						<i style={{ color: 'purple', fontWeight: 'bold' }}>Toxic, </i>
+						<i style={{ color: 'gray', fontWeight: 'bold' }}>Normal </i>)
 					</div>
 					<div>
-						Infernomon belong to 1 of the 4 avaialable roles: Assassin,
-						Defender, Healer, and Utility.
+						- 1 of the 4 avaialable roles:{' '}
+						<i style={{ fontWeight: 'bold' }}>
+							Assassin, Defender, Healer, Utility.
+						</i>
 					</div>
 					<div>
-						Infernomon have 4 attacks: 1 auto-attack, 2 inherited attacks, and 1
-						acquired attack.
+						- Unique <i style={{ fontWeight: 'bold' }}>Attacks</i>
 					</div>
 					<div>
-						Each Infernomon has a unique recipe required for conjuring. Some
-						recipes have ingredients that are harder to find than others based
-						on the Infernomon's rarity.
+						- Unique <i style={{ fontWeight: 'bold' }}>Base Stats</i> per
+						species and individual{' '}
+						<i style={{ fontWeight: 'bold' }}>Bonus Stats</i>
 					</div>
 					<div>
-						Each time you conjure an Infernomon, you may get lucky and have
-						strong stats, ideal attacks, a shiny asthetic, or a combination of
-						the three.
+						- Species rarity: <i style={{ fontWeight: 'bold' }}>Common, </i>
+						<i style={{ color: '#00cd66', fontWeight: 'bold' }}>Uncommon, </i>
+						<i style={{ color: '#0886ff', fontWeight: 'bold' }}>Rare, </i>
+						<i style={{ color: '#c578d5', fontWeight: 'bold' }}>Legendary, </i>
+						<i style={{ color: '#d67513', fontWeight: 'bold' }}>Epic </i>
+					</div>
+					<div>
+						- Stat altering <i style={{ fontWeight: 'bold' }}>Temperments</i>
+					</div>
+					<div>
+						- 1 or more conjuring perks:{' '}
+						<i style={{ fontWeight: 'bold' }}>Lucky, Talented, and Shiny</i>
 					</div>
 				</div>
 			</div>
@@ -87,21 +110,26 @@ const Infernomon = () => {
 				</div>
 				<div className={'featureSectionColumnTwo'}>
 					<div>
-						When you attend school for your first time, you will take a quiz and
-						be sorted into a school house. Your school house will define the
-						role your character plays during battle. The three roles that are
-						available to your character are: Assassin, Defender, and Healer.
+						- Get sorted into a school house to determine which of the three
+						roles your character will play:{' '}
+						<i style={{ fontWeight: 'bold' }}>
+							Assassin, Defender, and Healer.
+						</i>
 					</div>
 					<div>
-						Throughout the game, you will frequently visit different classrooms
-						within the school to learn the following school subjects: Conjuring,
-						Potion Making, Gem Crafting, and Enchanting. Each school subject
-						offers your character a unique asset when battling against
-						Infernomon. Once you've ranked up your skills in each school
-						subject, you will then pick one single school subject which becomes
-						your Major. Although it is necessary to learn all school subjects,
-						your Major will provide additional benefits specific to a single
-						school subject.
+						- Learn about the 4 different school subject:{' '}
+						<i style={{ fontWeight: 'bold' }}>
+							Conjuring, Potion Making, Gem Crafting, Enchanting
+						</i>
+					</div>
+					<div>
+						- Rank up your skills in each of the school subjects to recieve
+						additional benefits when battling.
+					</div>
+					<div>
+						- Choose a single school subject to become your{' '}
+						<i style={{ fontWeight: 'bold' }}>Major</i> and recieve additional
+						benefits a specific subject.
 					</div>
 				</div>
 			</div>
@@ -111,7 +139,7 @@ const Infernomon = () => {
 					<div>
 						<img
 							style={{
-								height: '200px',
+								height: '220px',
 								paddingTop: '20px',
 							}}
 							src={Dungeon}
@@ -121,32 +149,106 @@ const Infernomon = () => {
 				</div>
 				<div className={'featureSectionColumnTwo'}>
 					<div>
-						There are 8 different Dungeons in the game, each of which has enemy
-						Infernomon you must defeat as well as different battle mechanics
-						unique to each Dungeon.
+						- Battle enemy Infernomon in{' '}
+						<i style={{ fontWeight: 'bold' }}>8 different Dungeons</i>
 					</div>
 					<div>
-						Defeating a Dungeon will reward you with loot and materials used to
-						power up your character, conjure Infernomon, and advance through
-						your school subjects.
+						- Each Dungeon you will traverse though a labyrinth fighting
+						numerous Infernomon Creeps and finish the Dungeon fighting an
+						Infernomon Boss
 					</div>
 					<div>
-						If a Dungeon is completed fast enough, you will increase your
+						- Pick 2 of your Infernomon to fight with you when you enter a
+						Dungeon.
+					</div>
+					<div>- Each Dungeon has unique battle mechanics.</div>
+					<div>- Complete a Dungeon to recieve valuable loot.</div>
+					<div>
+						- If a Dungeon is completed fast enough, you will increase your
 						Dungeon Score and unlock a harder difficulty of the same Dungeon.
 					</div>
 					<div>
-						Defeating high level Dungeons provides you with better rewards.
+						- The harder the difficulty of the Dungeon, the better the rewards.
 					</div>
 					<div>
-						Increase your Dungeon score and see how you rank against other
+						- Increase your Dungeon score and see how you rank against other
 						online players.
 					</div>
 				</div>
 			</div>
-			<div>Gear</div>
-			<div>Daily/Weekly Reward Chests</div>
-			<div>Achievements</div>
+			<div className={'featureSection'}>
+				<div className={'featureTitle'}>Equipable Gear</div>
+				<div className={'featureSectionColumnOne'}>
+					<div>
+						<img style={{ height: '250px' }} src={Gear} alt='logo' />
+					</div>
+				</div>
+				<div className={'featureSectionColumnTwo'}>
+					<div>
+						- <i style={{ fontWeight: 'bold' }}>Player Gear</i>: Staff, Wand,
+						Hat, Robe
+					</div>
+					<div>
+						- Enchant Staffs and Wands with your{' '}
+						<i style={{ fontWeight: 'bold' }}>Enchanting</i> skills to provide a
+						damage type and increased power.
+					</div>
+					<div>
+						<i style={{ fontWeight: 'bold' }}></i>
+					</div>
+					<div>
+						- <i style={{ fontWeight: 'bold' }}>Pendants</i>: Equip 1 Pendant
+						per Infernomon
+					</div>
+					<div>
+						- 8 different Pendant Types that grant unique abilites to
+						Infernomon.
+					</div>
+					<div>
+						- Attach gems made from your{' '}
+						<i style={{ fontWeight: 'bold' }}>Gem Crafting</i> skills to provide
+						stat bonuses to a pendant.
+					</div>
+					<div>
+						- Player Gear and Pendants come in 1 of 5 rarities:{' '}
+						<i style={{ fontWeight: 'bold' }}>Common, </i>
+						<i style={{ color: '#00cd66', fontWeight: 'bold' }}>Uncommon, </i>
+						<i style={{ color: '#0886ff', fontWeight: 'bold' }}>Rare, </i>
+						<i style={{ color: '#c578d5', fontWeight: 'bold' }}>Legendary, </i>
+						<i style={{ color: '#d67513', fontWeight: 'bold' }}>Epic </i>
+					</div>
+					<div>
+						- Player Gear and Pendants provide additional stat benefits based on
+						the level of Dungeon it was acquired from and its rarity.
+					</div>
+				</div>
+			</div>
+			<div className={'featureSection'}>
+				<div className={'featureTitle'}>Daily & Weekly Treasure Chests</div>
+				<div className={'featureSectionColumnOne'}>
+					<div>
+						<img style={{ height: '230px' }} src={TreasureChest} alt='logo' />
+					</div>
+				</div>
+				<div className={'featureSectionColumnTwo'}>
+					<div>
+						- Open up a{' '}
+						<i style={{ fontWeight: 'bold' }}>Daily Treasure Chest</i> to
+						recieve rewards equivalent in value to your highest completed
+						Dungeon Level.
+					</div>
+					<div>
+						- Open up a{' '}
+						<i style={{ fontWeight: 'bold' }}>Weekly Treasure Chest</i> to
+						recieve rewards equivalent in value to your average Dungeon Score +5
+						across all complete Dungeons from the previous week (i.e. If your
+						average Dungeon Score was 10, you would recieve rewards equivilant
+						to completing a level 15 Dungeon).
+					</div>
+				</div>
+			</div>
 			<div>Auction House</div>
+			<div>Achievements</div>
 			<div>Future Plans</div>
 		</div>
 	);
