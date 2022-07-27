@@ -67,7 +67,6 @@ const JTenzGames = ({ setActiveTab }) => {
 							</a>
 						</div>
 					</div>
-					(TODO: set custom youtube url)
 				</div>
 				<div className={'subSection'}>
 					<img style={{ height: jTenzGamesHeight }} src={jace} alt='logo' />
@@ -143,11 +142,9 @@ const JTenzGames = ({ setActiveTab }) => {
 				</div>
 			</div>
 			<div className={'section'} style={{ fontSize: '9px' }}>
-				(Treasure image from:
 				<a href='https://www.freepik.com/vectors/sapphire'>
 					Sapphire vector created by macrovector - www.freepik.com
 				</a>
-				)
 			</div>
 		</div>
 	);

@@ -318,6 +318,12 @@ const Infernomon = () => {
 				<a href='https://www.freepik.com/vectors/confrontation'>
 					Confrontation vector created by upklyak - www.freepik.com
 				</a>
+				<a
+					href='https://www.flaticon.com/free-icons/multiplayer'
+					title='multiplayer icons'
+				>
+					Multiplayer icons created by Freepik - Flaticon
+				</a>
 			</div>
 		</div>
 	);
