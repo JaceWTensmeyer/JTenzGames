@@ -70,7 +70,7 @@ const Infernomon = () => {
 					<div>
 						- 1 of the 4 avaialable roles:{' '}
 						<i style={{ fontWeight: 'bold' }}>
-							Assassin, Defender, Healer, Utility.
+							Assassin, Defender, Support, Utility.
 						</i>
 					</div>
 					<div>
@@ -113,23 +113,23 @@ const Infernomon = () => {
 						- Get sorted into a school house to determine which of the three
 						roles your character will play:{' '}
 						<i style={{ fontWeight: 'bold' }}>
-							Assassin, Defender, and Healer.
+							Assassin, Defender, and Support.
 						</i>
 					</div>
 					<div>
-						- Learn about the 4 different school subject:{' '}
+						- Learn about the 4 different professions taught at the school:{' '}
 						<i style={{ fontWeight: 'bold' }}>
 							Conjuring, Potion Making, Gem Crafting, Enchanting
 						</i>
 					</div>
 					<div>
-						- Rank up your skills in each of the school subjects to recieve
+						- Rank up your skills in each of the professions to recieve
 						additional benefits when battling.
 					</div>
 					<div>
-						- Choose a single school subject to become your{' '}
+						- Choose a single profession to become your{' '}
 						<i style={{ fontWeight: 'bold' }}>Major</i> and recieve additional
-						benefits a specific subject.
+						benefits to 1 profession.
 					</div>
 				</div>
 			</div>
@@ -241,13 +241,15 @@ const Infernomon = () => {
 						- Open up a{' '}
 						<i style={{ fontWeight: 'bold' }}>Weekly Treasure Chest</i> to
 						recieve rewards equivalent in value to your average Dungeon Score +5
-						across all complete Dungeons from the previous week (i.e. If your
+						across all completed Dungeons from the previous week (i.e. If your
 						average Dungeon Score was 10, you would recieve rewards equivilant
 						to completing a level 15 Dungeon).
 					</div>
 				</div>
 			</div>
-			<div>Auction House</div>
+			<div className={'featureSection'}>
+				<div className={'featureTitle'}>Auction House</div>
+			</div>
 			<div>Achievements</div>
 			<div>Future Plans</div>
 		</div>
