@@ -5,6 +5,9 @@ import StarterInfernomon from '../../images/StarterInfernomon.png';
 import Dungeon from '../../images/Dungeon.png';
 import Gear from '../../images/Gear.png';
 import TreasureChest from '../../images/TreasureChest.png';
+import Coin from '../../images/coin.png';
+import Trophy from '../../images/trophy.png';
+import Future from '../../images/Future.png';
 
 import './style.scss';
 
@@ -247,11 +250,75 @@ const Infernomon = () => {
 					</div>
 				</div>
 			</div>
-			<div className={'featureSection'}>
+			<div
+				className={'featureSection'}
+				style={{ width: '27%', height: '150px' }}
+			>
 				<div className={'featureTitle'}>Auction House</div>
+				<div className={'featureSectionColumnOne'}>
+					<div>
+						<img style={{ height: '100px' }} src={Coin} alt='logo' />
+					</div>
+				</div>
+				<div className={'featureSectionColumnTwo'}>
+					<div>
+						- <i style={{ fontWeight: 'bold' }}>Buy</i> powerful Infernomon,
+						Gear, and Items
+					</div>
+					<div>
+						- <i style={{ fontWeight: 'bold' }}>Sell</i> powerful Infernomon,
+						Gear, and Items
+					</div>
+				</div>
 			</div>
-			<div>Achievements</div>
-			<div>Future Plans</div>
+			<div
+				className={'featureSection'}
+				style={{ width: '27%', height: '150px' }}
+			>
+				<div className={'featureTitle'}>Achievements</div>
+				<div className={'featureSectionColumnOne'}>
+					<div>
+						<img style={{ height: '100px' }} src={Trophy} alt='logo' />
+					</div>
+				</div>
+				<div className={'featureSectionColumnTwo'}>
+					<div>- Beating the storyline isn't enough...</div>
+					<div>- Complete even more challenges in the end game!</div>
+				</div>
+			</div>
+			<div className={'featureSection'}>
+				<div className={'featureTitle'}>Future Plans</div>
+				<div className={'featureSectionColumnOne'}>
+					<div>
+						<img style={{ height: '230px' }} src={Future} alt='logo' />
+					</div>
+				</div>
+				<div className={'featureSectionColumnTwo'}>
+					<div>- Player vs. Player battles</div>
+					<div>- Friends list</div>
+					<div>- Co-op gameplay</div>
+					<div>
+						- Expansion packs with more Infernomon, Gear, Dungeons, and more!
+					</div>
+				</div>
+			</div>
+			<div
+				className={'section'}
+				style={{ fontSize: '9px', width: '100%', float: 'left' }}
+			>
+				<a href='https://www.freepik.com/vectors/sapphire'>
+					Sapphire vector created by macrovector - www.freepik.com
+				</a>
+				<a href='https://www.freepik.com/vectors/money-sign'>
+					Money sign vector created by rawpixel.com - www.freepik.com
+				</a>
+				<a href='https://www.freepik.com/vectors/winner-trophy'>
+					Winner trophy vector created by katemangostar - www.freepik.com
+				</a>
+				<a href='https://www.freepik.com/vectors/confrontation'>
+					Confrontation vector created by upklyak - www.freepik.com
+				</a>
+			</div>
 		</div>
 	);
 };
