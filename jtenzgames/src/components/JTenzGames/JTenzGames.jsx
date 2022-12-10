@@ -10,7 +10,7 @@ import {
 } from 'react-icons/ai';
 
 import './style.scss';
-
+// test comment
 const JTenzGames = ({ setActiveTab }) => {
 	const jTenzGamesHeight = '300px';
 	const infernomonHeight = '400px';
